@@ -2,83 +2,102 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
     <title>watastick's page</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    
   </head>
   <body>
-    <div class="header">
-      <div class="header-logo">@watastick</div>
-    </div>
+    <!-- header elements -->
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <div class="header-logo">@watastick</div>
+        </div>
+        <span class="fa fa-bers menu-icon"></span>
+        <div class="header-right"></div>
+      </div>
+    </header>
 
-    <div class="main">
-      <div class="copy-container">
+
+    <!-- main contents -->
+    <!-- top wrapper -->
+    <div class="top-wrapper">
+      <div class="container">
         <h2>WELCOME <span>MY </span>PAGE</h2>
       </div>
-      
-      <div class="contents">
-         <h3 class="section-title">ABOUT</h3> 
-        
-        <div class="textbox">
-
-          <h4>・学士研究(2017卒業)</h4>  
-          <p>画像処理、前景除去</p>
-          <h4>・修士研究(2019修了)</h4>
-          <p>表情認識、機械学習<br>
-          *ISAROB2019にて発表</p>
+    </div>
+    
+    <!-- contents wrapper -->
+    <div class="contents-wrapper">
+      <div class="container">
+        <div class="sections">
+          <div class="section">
+            <div class="section-title">
+              <h3>ABOUT</h3>
+            </div>
+            <div class="contents">
+              <div class="content">
+                <p class="heading">・学士での研究</p>
+                <p class="content-text">画像処理、前景除去に関する研究</p>
+              </div>
+              <div class="content">
+                <p class="heading">・修士での研究</p>
+                <p class="content-text">表情認識、機械学習</p>
+              </div>
+              <div class="content">
+                <p class="heading">・スキル</p>
+                <p class="content-text">Python(Keras, TensorFlow), C++(OpenCV), C, 3DCAD(SolidWorks)</p>
+              </div>
+              <div class="content">
+                <p class="heading">・学習中</p>
+                <p class="content-text">Web系言語：HTML, CSS, JavaScript  機械学習：Kaggle</p>
+              </div>
+              <div class="content">
+                <p class="heading">・磨きたいスキル</p>
+                <p class="content-text">Webアプリケーション開発スキル, データサイエンススキル</p>
+              </div>
+              <div class="content">
+                <p class="heading">・関心</p>
+                <p class="content-text">機械学習、データサイエンス, 地方創生(観光、教育の視点)</p>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="section-title">
+              <h3>WORKS & CONTACT</h3>
+            </div>
+            <div class="contents">
+              <div class="content">
+                <div class="content-item">
+                  <a href="https://www.kaggle.com/watastick" target="_blank">
+                    <img src="img/kaggle-logo.png" alt="kaggle-link">
+                    </a>
+                </div>
+                <p class="heading">kaggle</p>
+              </div>
+              <div class="content">
+                <div class="content-item">
+                  <a href="https://github.com/watastick" target="_blank">
+                    <img src="img/github-logo.png" alt="github-link">
+                    </a>
+                </div>
+                <p class="heading">GitHub</p>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="textbox">
-          <h4>・スキル</h4>
-          <p>Python(Keras, TensorFlow) <br>
-             C++(OpenCV), C <br>
-             3DCAD(SolidWorks) </p>
-          <h4>・学習中</h4>
-          <p> Web系言語：HTML, CSS, JavaScript <br>
-          機械学習：Kaggle </p>
-        </div>
-
-        <div class="textbox">
-          <h4>・関心</h4>
-          <p>機械学習、データサイエンス<br>
-            地方創生(観光、教育の視点)<br> 
-          </p>
-          <h4>・磨きたいスキル</h4>
-          <p> データサイエンススキル<br>
-            Webアプリケーション開発スキル</p>
-
-        </div>
-
-
-
       </div>
-      
-      <div class="contents">
-        <h3 class="section-title">WORKS & CONTACT</h3>
-        <div class="contents-item">
-          <a href="https://www.kaggle.com/watastick" target="_blank">
-          <img src="img/kaggle-logo.png" alt="kaggle-link">
-          </a>
-          <p>kaggle</p>
-        </div>
-
-        <div class="contents-item">
-          <a href="https://github.com/watastick" target="_blank">
-          <img src="img/github-logo.png" alt="github-link">
-          </a>
-          <p>GitHub</p>
-        </div>
-        
-       </div>
-      </div>
-      
     </div>
 
-    <div class="footer">
-      <div class="footer-logo">@watastick</div>
-      
-      <p><small>&copy; 2020 watastick</small></p>
-    </div>
+    <!-- footer element -->
+    <footer>
+      <div class="container">
+        <div class="footer-logo">@watastick</div>
+        <p>&copy; 2020 watastick</p>
+      </div>
+    </footer>
   </body>
 </html>
