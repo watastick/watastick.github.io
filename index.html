@@ -1,103 +1,218 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
-    <title>watastick's page</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="responsive.css">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+
+    <title>@watastick</title>
   </head>
   <body>
-    <!-- header elements -->
-    <header>
-      <div class="container">
-        <div class="header-left">
-          <div class="header-logo">@watastick</div>
-        </div>
-        <span class="fa fa-bers menu-icon"></span>
-        <div class="header-right"></div>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bar_toggle" aria-controls="bar_toggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="bar_toggle">
+        
+      <!-- left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">@watastick</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#profile">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experiences">Experiences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#learning">Learning</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="icon fa-github" href="https://github.com/watastick">
+              <span class="label">Github</span>
+            </a>
+          </li>
+        </ul>
       </div>
-    </header>
+    </nav>
 
-
-    <!-- main contents -->
-    <!-- top wrapper -->
-    <div class="top-wrapper">
-      <div class="container">
-        <h2>WELCOME <span>MY </span>PAGE</h2>
-      </div>
+    <div class="container-fluid">
+    	<div class="row">
+    		<div class="col-xs-12 cover-img" style="background-image:url('img/bg1.jpg');" title="STONEHENGE Field">
+    			<div class="cover-text text-center">
+    				<h1 style="color: #fff;">@watastick</h1>
+            <p style="color: #fff;">watastick.github.io</p>
+    			</div>
+    		</div>
+    	</div>
     </div>
-    
-    <!-- contents wrapper -->
-    <div class="contents-wrapper">
-      <div class="container">
-        <div class="sections">
-          <div class="section">
-            <div class="section-title">
-              <h3>ABOUT</h3>
-            </div>
-            <div class="contents">
-              <div class="content">
-                <p class="heading">・学士での研究</p>
-                <p class="content-text">画像処理、前景除去に関する研究</p>
-              </div>
-              <div class="content">
-                <p class="heading">・修士での研究</p>
-                <p class="content-text">表情認識、機械学習</p>
-              </div>
-              <div class="content">
-                <p class="heading">・スキル</p>
-                <p class="content-text">Python(Keras, TensorFlow), C++(OpenCV), C, 3DCAD(SolidWorks)</p>
-              </div>
-              <div class="content">
-                <p class="heading">・学習中</p>
-                <p class="content-text">Web系言語：HTML, CSS, JavaScript  機械学習：Kaggle</p>
-              </div>
-              <div class="content">
-                <p class="heading">・磨きたいスキル</p>
-                <p class="content-text">Webアプリケーション開発スキル, データサイエンススキル</p>
-              </div>
-              <div class="content">
-                <p class="heading">・関心</p>
-                <p class="content-text">機械学習、データサイエンス, 地方創生(観光、教育の視点)</p>
-              </div>
-            </div>
-          </div>
-          <div class="section">
-            <div class="section-title">
-              <h3>WORKS & CONTACT</h3>
-            </div>
-            <div class="contents">
-              <div class="content">
-                <div class="content-item">
-                  <a href="https://www.kaggle.com/watastick" target="_blank">
-                    <img src="img/kaggle-logo.png" alt="kaggle-link">
-                    </a>
-                </div>
-                <p class="heading">kaggle</p>
-              </div>
-              <div class="content">
-                <div class="content-item">
-                  <a href="https://github.com/watastick" target="_blank">
-                    <img src="img/github-logo.png" alt="github-link">
-                    </a>
-                </div>
-                <p class="heading">GitHub</p>
-              </div>
-            </div>
-          </div>
+
+    <br>
+    <div id="profile" class="container">
+      <h1>Profile</h1>
+      <div class="row">
+        <div class="col-xl-6 col-md-12">
+          <center>
+            <h2>watastick</h2>
+            <img src="img/icon.jpg" class="rounded-circle" alt="Cinque Terre" width=50%>
+          </center>
+        </div>
+        <div class="col-xl-6 col-md-12">
+          <left>
+            <br>
+            <table class="table">
+              <tr>
+                <td>Birth</td>
+                <td>1994</td>
+              </tr>
+              <tr>
+                <td>Home</td>
+                <td>Kyushu, Japan</td>
+              </tr>
+              <tr>
+                <td>Hobby</td>
+                <td>Cycling, Onsen</td>
+              </tr>
+            </table>
+          </left>
         </div>
       </div>
     </div>
 
-    <!-- footer element -->
-    <footer>
-      <div class="container">
-        <div class="footer-logo">@watastick</div>
-        <p>&copy; 2020 watastick</p>
-      </div>
-    </footer>
+
+    <div id="skills" class="container">
+      <h1>Skills</h1>
+      <table class="table">
+        <tr>
+            <div class="progress" style="height:30px">
+              <div class="progress-bar bg-danger" style="width:80%;height:30px;font-size:20px">Image Recognition</div>
+            </div>
+        </tr>
+        <br>
+        <tr>
+            <div class="progress" style="height:30px">
+              <div class="progress-bar bg-danger" style="width:70%;height:30px;font-size:20px">Image Processing</div>
+            </div>
+        </tr>
+        <br>
+        <tr>
+            <div class="progress" style="height:30px">
+              <div class="progress-bar bg-danger" style="width:60%;height:30px;font-size:20px">Python</div>
+            </div>
+        </tr>
+        <br>
+        <tr>
+            <div class="progress" style="height:30px">
+              <div class="progress-bar bg-danger" style="width:60%;height:30px;font-size:20px">OpenCV</div>
+            </div>
+        </tr>
+        <br>
+        <tr>
+            <div class="progress" style="height:30px">
+              <div class="progress-bar bg-danger" style="width:50%;height:30px;font-size:20px">Machine Learning</div>
+            </div>
+        </tr>
+        <br>
+        <tr>
+            <div class="progress" style="height:30px">
+              <div class="progress-bar bg-danger" style="width:30%;height:30px;font-size:20px">JavaScript</div>
+            </div>
+        </tr>
+        <br>
+        <tr>
+            <div class="progress" style="height:30px">
+              <div class="progress-bar bg-danger" style="width:30%;height:30px;font-size:20px">HTML/CSS</div>
+            </div>
+        </tr>
+        <br>
+        <tr>
+            <div class="progress" style="height:30px">
+              <div class="progress-bar bg-danger" style="width:30%;height:30px;font-size:20px">3DCAD</div>
+            </div>
+        </tr>
+        <br>
+        <tr>
+            <div class="progress" style="height:30px">
+              <div class="progress-bar bg-danger" style="width:20%;height:30px;font-size:20px">English</div>
+            </div>
+        </tr>
+      </table>
+    </div>
+
+    <div id="experiences" class="container">
+      <h1>Experiences</h1>
+      <br>
+      <h4>A Study on Optical Flow Estimation for Foreground Removal from Images</h4>
+      <p>Bachelor's degree research theme. I researched a method to remove objects from continuous images obtained by moving the camera horizontally.</p>
+      <br>
+      <h4>Emotion Classification from Smile Images Using Machine Learning</h4>
+      <p>Master's degree research theme. We Focusing on the smile, which is one of the facial expressions, we used machine learning to classify whether the smile was real or fake.</p>
+      <br>
+      <h4>3DCAD modeling</h4>
+      <p>Designed the main landing gear for Airbus A320. It consist of several hundred parts in total.</p>
+      <br>
+      <h4>Onsen stamp Map</h4>
+      <p>Under Development.</p>
+    </div>
+    <br>
+
+    <div id="learning" class="container">
+      <h1>Learning</h1>
+      <table class="table">
+        <tr>
+            <div class="progress" style="height:30px">
+              <div class="progress-bar bg-info" style="width:20%;height:30px;font-size:20px">Kaggle</div>
+            </div>
+        </tr>
+        <br>
+        <tr>
+            <div class="progress" style="height:30px">
+              <div class="progress-bar bg-info" style="width:40%;height:30px;font-size:20px">Leaflet</div>
+            </div>
+        </tr>
+        <br>
+        <tr>
+            <div class="progress" style="height:30px">
+              <div class="progress-bar bg-info" style="width:40%;height:30px;font-size:20px">ML course</div>
+            </div>
+        </tr>
+        <br>
+      </table>
+    </div>
+
+
+    <nav class="navbar navbar-expand-xl bg-dark navbar-dark bottom justify-content-center">
+      <!-- left -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link">2020  watastick.github.io</a>
+        </li>
+      </ul>
+    </nav>
+
+
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
