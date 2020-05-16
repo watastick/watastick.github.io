@@ -1,3 +1,3 @@
 # watastick.github.io
 this is my page.  
-[© 2020 watastick](https://watastick.github.io/)
+<a href="https://watastick.github.io/" target=”_blank”>@watastick</a>
